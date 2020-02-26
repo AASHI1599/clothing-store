@@ -1,2 +1,5 @@
-# clothing-store
-JDBC, JSP,HTML,SERVLETS
+Clothing Store
+=================
+
+
+\ ゜o゜)ノ
