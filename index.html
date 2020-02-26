@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+  <head>
+    <title>Login Validation Form</title>
+    <meta name="description" content="Login Validation Form" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/f6510862-5c01-44f9-bfa6-01ef2b127781%2Ffavicon.ico?v=1582694806717"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <form>
+      ID:
+      <input name="id" type="text" maxlength="5" placeholder="101" />
+      <br />
+      Category:
+      <input name="category" type="text" maxlength="25" placeholder="Western" />
+      <br />
+      Colour:
+      <input name="colour" type="text" maxlength="100" placeholder="Black" />
+      <br />
+      Name:
+      <input name="name" type="text" maxlength="100" placeholder="T-shirt" />
+      <br />
+      Size:
+      <input name="Size" type="text" maxlength="4" placeholder="M" />
+      <br />
+      Price:
+      <input name="price" type="number" maxlength="7" placeholder="1000.00" />
+      <br />
+      <button type="submit" id="submit-form">Submit</button>
+    </form>
+  </body>
+</html>
