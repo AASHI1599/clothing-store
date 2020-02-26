@@ -1,11 +1,48 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   margin: 2em;
+  background: #a1ffa1;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  tetx-shadow: 2px 2px 2px black;
+}
+
+form {
+  text-align: center;
+  margin-right: 2em;
+  margin-bottom: 25px;
+  padding: 2em 2em 2em 2em;
+  background: #ffa1ff;
+  display: inline-block;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px black;
+}
+
+input {
+  background: white;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  color: black; 
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
 }
